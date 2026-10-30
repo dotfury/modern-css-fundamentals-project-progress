@@ -1,14 +1,18 @@
+body {
+  color: hsl(0 0% 20%);
+}
+
 h1,
 h2 {
-  color: goldenrod;
+  color: hsl(39 100% 41%);
 }
 
 h1 span {
-  color: black;
+  color: hsl(0 0% 20%);
 }
 
 a {
-  color: goldenrod;
+  color: hsl(39 100% 41%);
 }
 
 .lede {
