@@ -1,10 +1,26 @@
 body {
   color: hsl(0 0% 20%);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-family: system-ui;
 }
 
 h1,
 h2 {
   color: hsl(39 100% 41%);
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.25rem;
 }
 
 h1 span {
@@ -20,5 +36,5 @@ a:hover, a:focus-visible {
 }
 
 .lede {
-  font-size: 21px;
+  font-size: 1.3125rem;
 }
