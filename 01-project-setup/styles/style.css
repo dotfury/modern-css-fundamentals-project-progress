@@ -75,6 +75,12 @@ a:hover, a:focus-visible {
   color: inherit;
 }
 
+img {
+  max-inline-size: 100%;
+  margin-inline: auto;
+  display: block;
+}
+
 button {
   cursor: pointer;
   font: inherit;
@@ -98,6 +104,8 @@ button {
 
 .hero {
   background: var(--clr-accent-400);
+  background-image: url('../images/chess-bg.jpg');
+  background-size: cover;
   padding-block: 100px;
   padding-inline: 1rem;
   text-align: center;
@@ -107,11 +115,12 @@ button {
   max-width: 900px;
   margin-inline: auto;
   padding: 50px;
-  background-color: var(--clr-neutral-100);
+  background-color: hsl(0 0% 100% / 0.7);
 }
 
 .page-footer {
-  background: var(--clr-neutral-800);
+  background-color: var(--clr-neutral-800);
+  background-image: linear-gradient(var(--clr-neutral-800), black);
   padding: 100px;
   color: var(--clr-neutral-100);
   text-align: center;
