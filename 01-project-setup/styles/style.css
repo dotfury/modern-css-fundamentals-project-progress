@@ -112,10 +112,16 @@ button {
 }
 
 .hero-content {
-  max-width: 900px;
-  margin-inline: auto;
   padding: 50px;
   background-color: hsl(0 0% 100% / 0.7);
+}
+
+.hero-content > :first-child {
+  margin-block-start: 0;
+}
+
+.hero-content > :last-child {
+  margin-block-end: 0;
 }
 
 .page-footer {
@@ -126,8 +132,7 @@ button {
   text-align: center;
 }
 
-.middle,
-.footer-content {
+.wrapper {
   padding-inline: 1rem;
   max-width: 900px;
   margin-inline: auto;
